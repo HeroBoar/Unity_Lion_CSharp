@@ -11,6 +11,11 @@ public class Class1 : MonoBehaviour
     //1.大小不一樣
     //2.括號成對出現 () [] {} '' "" < >
 
+    [Header("Car1")]
+    public Car car1;
+    [Header("Car2")]
+    public Car car2;
+
     //事件：在特定時間會以指定次數執行的方法(名稱為藍色的)
     //開始事件：播放遊戲時執行一次-初始設定
     private void Start()
@@ -18,5 +23,15 @@ public class Class1 : MonoBehaviour
         //輸出("文字訊息");
         //C# 結尾為分號;
         print("Hello World~0.<");
+
+        //取得 get
+        print("Car1的cc數"+car1.cc);
+        print("Car2的重量"+car2.weight);
+
+        //設定 set
+        car1.brake = true;
+        car1.brand = "汪";
+        car1.cc = 2222;
+        car1.weight = 77.7f;
     }
 }
