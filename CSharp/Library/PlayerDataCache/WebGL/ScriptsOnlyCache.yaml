@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Clas2_Operator
+    - Practice1_OperatorMethod
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -38,23 +39,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11332}
     - Class: 114
-      Script: {instanceID: 11348}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11730}
+      Script: {instanceID: 11754}
     - Class: 114
-      Script: {instanceID: 12106}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12294}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12582}
+      Script: {instanceID: 12608}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12794}
+    - Class: 114
+      Script: {instanceID: 12962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -102,6 +105,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 28354a6e2f612bcb796913fb53afed7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Class3_Method
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -260,6 +269,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: aed2b8aa5ac7989d7f8abe42b4e1d06f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Person
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -390,6 +405,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 68f0aae3a76f5a60fcf652a13cc8bf83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Practice1_OperatorMethod
   - hash:
       serializedVersion: 2
       Hash: 70beac9b88602bccc9403e6c6cd2ecec
