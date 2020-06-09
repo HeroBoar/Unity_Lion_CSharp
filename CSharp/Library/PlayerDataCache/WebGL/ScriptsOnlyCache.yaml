@@ -54,31 +54,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11332}
+      Script: {instanceID: 11458}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11918}
     - Class: 114
-      Script: {instanceID: 12138}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12024}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 12066}
     - Class: 114
-      Script: {instanceID: 19718}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 20288}
+      Script: {instanceID: 12536}
     - Class: 114
-      Script: {instanceID: 20934}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 21720}
+      Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 22012}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 22898}
+      Script: {instanceID: 13680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -106,6 +106,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: f61f9768ad752ec8647cbc74ed9fcdee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Cube
+  - hash:
+      serializedVersion: 2
       Hash: 3c08375166df118bd1801438fc36b92f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -122,6 +128,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 9c7c87712e298256d276eb96e02a57b1
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -196,6 +208,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: f6633ace6e530c0000f2ac6da4269c52
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -224,6 +242,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 36f96c190e244321e128769d9c5120ac
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -256,16 +280,34 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: acc242ebf49d8e161bc32030e27323e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: fly
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: bb5bde5c9e88fd47769dc576718bd7bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ground
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -278,6 +320,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c8334d4b085373cec75dd15d5468ce97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: house
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -328,10 +376,28 @@ ScriptsOnlyBuild:
     className: Class6_StaticAPI
   - hash:
       serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e7f5f9c4c4386fd56a4039f2ff695fbe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MonsterManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -382,6 +448,12 @@ ScriptsOnlyBuild:
     className: Class5_ifSwitchLoop
   - hash:
       serializedVersion: 2
+      Hash: d6a8e9bec3160a152b9b2710593d3caa
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
+  - hash:
+      serializedVersion: 2
       Hash: 7803db76b3d6b1261258d62eb7d4c263
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -412,6 +484,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: bb5bde5c9e88fd47769dc576718bd7bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Monster
+  - hash:
+      serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -436,10 +514,28 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 301f4da7cc3b301c161d089f9d22efed
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
+  - hash:
+      serializedVersion: 2
+      Hash: 2c764ba9a2e745bdde50c830b2a36ad0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ThrowObject
+  - hash:
+      serializedVersion: 2
       Hash: 3a75a548e575b6a4b0185519ff38306a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: class6_practice
+  - hash:
+      serializedVersion: 2
+      Hash: f61f9768ad752ec8647cbc74ed9fcdee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shape
   - hash:
       serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
@@ -452,6 +548,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2fc059e35d43abe8b2c63ff6d858b67b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Far
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -532,6 +634,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: f61f9768ad752ec8647cbc74ed9fcdee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Triangle
+  - hash:
+      serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -596,115 +704,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f61f9768ad752ec8647cbc74ed9fcdee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shape
-  - hash:
-      serializedVersion: 2
-      Hash: f61f9768ad752ec8647cbc74ed9fcdee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Cube
-  - hash:
-      serializedVersion: 2
-      Hash: f61f9768ad752ec8647cbc74ed9fcdee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Triangle
-  - hash:
-      serializedVersion: 2
-      Hash: 9c7c87712e298256d276eb96e02a57b1
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: PreferenceDictionary
-  - hash:
-      serializedVersion: 2
-      Hash: f6633ace6e530c0000f2ac6da4269c52
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: PolyShape
-  - hash:
-      serializedVersion: 2
-      Hash: 36f96c190e244321e128769d9c5120ac
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: ProBuilderMesh
-  - hash:
-      serializedVersion: 2
-      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: BezierShape
-  - hash:
-      serializedVersion: 2
-      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: TriggerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: ColliderBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d6a8e9bec3160a152b9b2710593d3caa
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: ColorPalette
-  - hash:
-      serializedVersion: 2
-      Hash: 301f4da7cc3b301c161d089f9d22efed
-    assemblyName: Unity.ProBuilder.dll
-    namespaceName: UnityEngine.ProBuilder
-    className: Entity
-  - hash:
-      serializedVersion: 2
-      Hash: bb5bde5c9e88fd47769dc576718bd7bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Monster
-  - hash:
-      serializedVersion: 2
-      Hash: bb5bde5c9e88fd47769dc576718bd7bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ground
-  - hash:
-      serializedVersion: 2
-      Hash: acc242ebf49d8e161bc32030e27323e3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: fly
-  - hash:
-      serializedVersion: 2
-      Hash: 2fc059e35d43abe8b2c63ff6d858b67b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Far
-  - hash:
-      serializedVersion: 2
-      Hash: 2c764ba9a2e745bdde50c830b2a36ad0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ThrowObject
-  - hash:
-      serializedVersion: 2
-      Hash: c8334d4b085373cec75dd15d5468ce97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: house
-  - hash:
-      serializedVersion: 2
-      Hash: e7f5f9c4c4386fd56a4039f2ff695fbe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MonsterManager
   platform: 20
   scenePathNames:
   - "Assets/\u7B2C\u4E03\u7AE0\uFF1A\u7DF4\u7FD2.unity"
-  playerPath: C:/Users/409-01/HeroBoar/Unity_Lion_CSharp/class7web
+  playerPath: C:/Users/409-01/HeroBoar/Unity_Lion_CSharp/Unity_Lion_CSharp/class7
