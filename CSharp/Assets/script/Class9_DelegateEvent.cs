@@ -41,6 +41,9 @@ public class Class9_DelegateEvent : MonoBehaviour
     //可以儲存 無傳回、一個字串參數 的任何方法
     public delegate void DelegateTest2(string s);
 
+    //委派的簽名：無傳回、一個參數、整數
+    public delegate void DelegateTest3(int number);
+
     //定義委派欄位
     public DelegateTest dA;
     public DelegateTest dB;
@@ -50,6 +53,8 @@ public class Class9_DelegateEvent : MonoBehaviour
     public DelegateTest d2;
 
     public DelegateTest2 d2C;
+
+    public DelegateTest3 d3;
 
     private void Start()
     {
@@ -68,8 +73,18 @@ public class Class9_DelegateEvent : MonoBehaviour
         d = MethodA;
         d += MethodB;
         d += MethodB;
+
+        //Lambda 匿名函式
+        //() => { 陳述式 }
+        d += () =>
+          {
+              print("我是匿名函式喔");
+              print("我是匿名函式喔");
+          };
+
         d();
 
-        
+        d3 = (n) => { n *= 10; print("十倍後的數值：" + n); };
+        d3(7);
     }
 }
